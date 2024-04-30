@@ -23,3 +23,19 @@ This Solidity contract demonstrates the use of control flow statements such as r
 * Updates the sender's balance and sends the specified amount of Ether to them.
 * If the transfer of funds fails, the transaction is rolled back with an error notice.
 * A Withdrawal event is generated.
+
+## demonstrateAssert()
+* Use assert() to ensure that the sender's balance is not negative.
+* This function is primarily intended to demonstrate the use of assert() in Solidity.
+
+## demonstrateRevert (bool shouldRevert)
+* If the shouldRevert argument is set to true, the transaction will be reversed.
+* This function explains how to use revert() with a customized error message.
+
+# Usage
+* Deploy the contract to a Solidity-compatible blockchain using Remix IDE or other compatible tools.
+* Interact with the contract functions such as deposit() and withdraw() as desired.
+* Use the demonstrateAssert() and demonstrateRevert() functions to observe the behavior of assert() and revert() respectively.
+  
+# License
+This project is licensed under the MIT License.
